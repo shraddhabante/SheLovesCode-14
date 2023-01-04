@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-validate</title>
+</head>
+
+<body>
+    <form>
+        <label for="contact">Contact</label>
+        <input type="text" placeholder="Please enter contact number" name="contact" id="contact" />
+        <p id="contact-error"></p>
+
+        <label for="name">Name</label>
+        <input type="text" placeholder="Please enter name" name="name" id="name" />
+        <p id="name-error"></p>
+
+        <label for="email">Email</label>
+        <input type="text" placeholder="Please enter email number" name="email" id="email" />
+        <p id="email-error"></p>
+
+        <label for="age">Age</label>
+        <input type="text" placeholder="Please enter age" name="age" id="age" />
+        <p id="age-error"></p>
+
+        <label for="designation">Designation</label>
+        <input type="text" placeholder="Please enter designation" name="designation" id="designation" />
+        <p id="designation-error"></p>
+
+        <label for="multiple-files">Multiple files</label>
+        <input type="file" placeholder="Please select multiple files" name="multiple-files" id="multiple-files" />
+        <p id="files-error"></p>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" placeholder="Please enter DOB" name="dob" id="dob" />
+        <p id="dob-error"></p>
+
+        <button type="button" onclick="formValidate()">Submit</button>
+    </form>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
